@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchTextMessage } from "store/thunk/fetchMessage";
 
 export const useMessage = () => {
-  const [number, setNumber] = useState("");
+  const [number, setNumber] = useState("573103172989");
   const [message, setMessage] = useState("");
   const [type, setType] = useState("text");
 
